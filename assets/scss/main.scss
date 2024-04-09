@@ -254,9 +254,7 @@ button {
     &__content {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
         width: 100%;
-        flex: 0 1 auto;
     }
     &__img {
         width: 100%;
@@ -419,6 +417,11 @@ button {
             font-size: 16px;
             font-weight: 600;
             text-align: center;
+        }
+        .btn__red {
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
         .price {
             color: #be1522;
@@ -737,5 +740,8 @@ button {
     .about__card-content {
         border: 0px none;
         padding: 0 0;
+    }
+    .about__content {
+        flex-wrap: wrap;
     }
 }

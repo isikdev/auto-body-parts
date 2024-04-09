@@ -271,9 +271,7 @@ button {
 .about__content {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 100%;
-  flex: 0 1 auto;
 }
 .about__img {
   width: 100%;
@@ -423,6 +421,11 @@ button {
   font-size: 16px;
   font-weight: 600;
   text-align: center;
+}
+.catalog__card-item .btn__red {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .catalog__card-item .price {
   color: #be1522;
@@ -710,5 +713,8 @@ button {
   .about__card-content {
     border: 0px none;
     padding: 0 0;
+  }
+  .about__content {
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=main.css.map */
